@@ -7,7 +7,7 @@ import { Api } from "../services/allApi";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
-const a = 5;
+
 const Home: NextPage = () => {
   const products = [
     {
